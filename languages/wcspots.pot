@@ -1,0 +1,705 @@
+# Copyright (C) 2023 Micemade
+# This file is distributed under the GPL-2.0-or-later.
+msgid ""
+msgstr ""
+"Project-Id-Version: WCSpots 1.1.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/wcspots\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2023-09-27T11:05:01+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.8.1\n"
+"X-Domain: wcspots\n"
+
+#. Plugin Name of the plugin
+msgid "WCSpots"
+msgstr ""
+
+#. Description of the plugin
+msgid "Create WooCommerce product showcases with image hotspots in the block editor."
+msgstr ""
+
+#. Author of the plugin
+msgid "Micemade"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://micemade.com"
+msgstr ""
+
+#: wcspots.php:60
+msgid "WCSpots Notice"
+msgstr ""
+
+#: wcspots.php:61
+msgid "WCSpots plugin is a block plugin for creating WooCommerce product showcases with image hotspots. To enable the WCSpots, please install and activate the WooCommerce plugin."
+msgstr ""
+
+#: wcspots.php:62
+msgid "Get WooCommerce"
+msgstr ""
+
+#: build/frontend/index.js:41
+#: build/index.js:2499
+#: build/frontend/index.js:18
+#: build/index.js:2213
+msgid "Loading..."
+msgstr ""
+
+#: build/frontend/index.js:44
+#: build/frontend/index.js:116
+#: build/frontend/index.js:185
+#: build/frontend/index.js:248
+#: build/frontend/index.js:308
+#: build/index.js:2502
+#: build/index.js:2574
+#: build/index.js:2712
+#: build/index.js:2907
+#: build/index.js:2967
+#: build/frontend/index.js:21
+#: build/frontend/index.js:73
+#: build/frontend/index.js:107
+#: build/frontend/index.js:145
+#: build/frontend/index.js:179
+#: build/index.js:2216
+#: build/index.js:2268
+#: build/index.js:2360
+#: build/index.js:2521
+#: build/index.js:2555
+msgid "Product not found"
+msgstr ""
+
+#: build/frontend/index.js:113
+#: build/index.js:2571
+#: build/frontend/index.js:69
+#: build/index.js:2264
+msgid "Loading short description..."
+msgstr ""
+
+#: build/frontend/index.js:201
+#: build/frontend/index.js:695
+#: build/index.js:2728
+#: build/frontend/index.js:120
+#: build/frontend/index.js:482
+#: build/index.js:2373
+msgid "Product has no featured image"
+msgstr ""
+
+#: build/frontend/index.js:245
+#: build/index.js:2904
+#: build/frontend/index.js:141
+#: build/index.js:2517
+msgid "Loading product price..."
+msgstr ""
+
+#: build/frontend/index.js:305
+#: build/index.js:2964
+#: build/frontend/index.js:175
+#: build/index.js:2551
+msgid "Loading product title..."
+msgstr ""
+
+#: build/frontend/index.js:855
+#: build/index.js:5337
+#: build/frontend/index.js:614
+#: build/index.js:5126
+msgid "Adding..."
+msgstr ""
+
+#: build/frontend/index.js:867
+#: build/index.js:5349
+#: build/frontend/index.js:629
+#: build/index.js:5141
+msgid "Product added"
+msgstr ""
+
+#: build/frontend/index.js:870
+#: build/index.js:5352
+#: build/frontend/index.js:633
+#: build/index.js:5145
+msgid "View Cart"
+msgstr ""
+
+#: build/frontend/index.js:1109
+#: build/index.js:5591
+#: build/frontend/index.js:814
+#: build/index.js:5326
+msgid "Double click on hotspot to assign a product."
+msgstr ""
+
+#: build/index.js:2207
+#: build/index.js:1943
+msgid "Format WCSpots Title"
+msgstr ""
+
+#: build/index.js:2222
+#: build/index.js:1964
+msgid "Enter your title here"
+msgstr ""
+
+#: build/index.js:2418
+#: build/index.js:2420
+#: build/index.js:2138
+#: build/index.js:2140
+msgid "Unassign product"
+msgstr ""
+
+#: build/index.js:2424
+#: build/index.js:2425
+#: build/index.js:2152
+#: build/index.js:2153
+msgid "Remove the hotspot"
+msgstr ""
+
+#: build/index.js:3442
+#: build/index.js:2926
+msgid "Columns"
+msgstr ""
+
+#: build/index.js:3450
+#: build/index.js:2936
+msgid "Product layout type"
+msgstr ""
+
+#: build/index.js:3451
+#: build/index.js:2937
+msgid "Pick a grid type for displaying selected products"
+msgstr ""
+
+#: build/index.js:3482
+#: build/index.js:4277
+#: build/index.js:2955
+#: build/index.js:3994
+msgid "Image width"
+msgstr ""
+
+#: build/index.js:3495
+#: build/index.js:2968
+msgid "Product image resolution"
+msgstr ""
+
+#: build/index.js:3504
+#: build/index.js:2975
+msgid "Select the size of the source image."
+msgstr ""
+
+#: build/index.js:3506
+#: build/index.js:4347
+#: build/index.js:2982
+#: build/index.js:4068
+msgid "Product align"
+msgstr ""
+
+#: build/index.js:3507
+#: build/index.js:2983
+msgid "How to align the products"
+msgstr ""
+
+#: build/index.js:3531
+#: build/index.js:2999
+msgid "Reset products layout settings."
+msgstr ""
+
+#: build/index.js:3544
+#: build/index.js:4431
+#: build/index.js:3017
+#: build/index.js:4157
+msgid "Show image"
+msgstr ""
+
+#: build/index.js:3554
+#: build/index.js:3750
+#: build/index.js:4444
+#: build/index.js:3030
+#: build/index.js:3272
+#: build/index.js:4173
+msgid "Show title"
+msgstr ""
+
+#: build/index.js:3564
+#: build/index.js:4457
+#: build/index.js:3043
+#: build/index.js:4189
+msgid "Show price"
+msgstr ""
+
+#: build/index.js:3574
+#: build/index.js:4470
+#: build/index.js:3056
+#: build/index.js:4205
+msgid "Show excerpt"
+msgstr ""
+
+#: build/index.js:3584
+#: build/index.js:4483
+#: build/index.js:3069
+#: build/index.js:4221
+msgid "Show Add to Cart"
+msgstr ""
+
+#: build/index.js:3595
+#: build/index.js:3084
+msgid "Reset toggles"
+msgstr ""
+
+#: build/index.js:3610
+#: build/index.js:3105
+msgid "Gap between products"
+msgstr ""
+
+#: build/index.js:3618
+#: build/index.js:4522
+#: build/index.js:3112
+#: build/index.js:4273
+msgid "Product elements spacing"
+msgstr ""
+
+#: build/index.js:3626
+#: build/index.js:4533
+#: build/index.js:3119
+#: build/index.js:4285
+msgid "Product elements padding"
+msgstr ""
+
+#: build/index.js:3637
+#: build/index.js:4546
+#: build/index.js:3130
+#: build/index.js:4300
+msgid "Reset spacing"
+msgstr ""
+
+#: build/index.js:3649
+#: build/index.js:4558
+#: build/index.js:3148
+#: build/index.js:4318
+msgid "Title font size"
+msgstr ""
+
+#: build/index.js:3657
+#: build/index.js:4569
+#: build/index.js:3158
+#: build/index.js:4333
+msgid "Price font size"
+msgstr ""
+
+#: build/index.js:3665
+#: build/index.js:4580
+#: build/index.js:3168
+#: build/index.js:4348
+msgid "Short description font size"
+msgstr ""
+
+#: build/index.js:3673
+#: build/index.js:4591
+#: build/index.js:3178
+#: build/index.js:4362
+msgid "Add to Cart size"
+msgstr ""
+
+#: build/index.js:3684
+#: build/index.js:4605
+#: build/index.js:3193
+#: build/index.js:4379
+msgid "Reset sizes"
+msgstr ""
+
+#: build/index.js:3701
+#: build/index.js:4625
+#: build/index.js:3215
+#: build/index.js:4406
+msgid "Background Color"
+msgstr ""
+
+#: build/index.js:3707
+#: build/index.js:3220
+msgid "Title color"
+msgstr ""
+
+#: build/index.js:3713
+#: build/index.js:3225
+msgid "Price color"
+msgstr ""
+
+#: build/index.js:3719
+#: build/index.js:3230
+msgid "Short description color"
+msgstr ""
+
+#: build/index.js:3724
+#: build/index.js:4657
+#: build/index.js:3237
+#: build/index.js:4447
+msgid "Reset colors"
+msgstr ""
+
+#: build/index.js:3746
+#: build/index.js:3266
+msgid "Title and description"
+msgstr ""
+
+#: build/index.js:3771
+#: build/index.js:3301
+msgid "Show description"
+msgstr ""
+
+#: build/index.js:3792
+#: build/index.js:3333
+msgid "WooCommerce products"
+msgstr ""
+
+#: build/index.js:3796
+#: build/index.js:3350
+msgid "Loading products list"
+msgstr ""
+
+#: build/index.js:3805
+#: build/index.js:3367
+msgid "Image for Hot Spots"
+msgstr ""
+
+#: build/index.js:3808
+#: build/index.js:3372
+msgid "Choose image for Woo HotSpots Block"
+msgstr ""
+
+#: build/index.js:3821
+#: build/index.js:3391
+msgid "Add Image"
+msgstr ""
+
+#: build/index.js:3821
+#: build/index.js:3392
+msgid "Replace Image"
+msgstr ""
+
+#: build/index.js:3826
+#: build/index.js:3401
+msgid "Remove image"
+msgstr ""
+
+#: build/index.js:3829
+#: build/index.js:3410
+msgid "Upload image"
+msgstr ""
+
+#: build/index.js:3830
+#: build/index.js:3416
+msgid "No image selected"
+msgstr ""
+
+#: build/index.js:3831
+#: build/index.js:3423
+msgid "Background image"
+msgstr ""
+
+#: build/index.js:3846
+#: build/index.js:3438
+msgid "Background image opacity"
+msgstr ""
+
+#: build/index.js:3856
+#: build/index.js:3453
+msgid "Layout"
+msgstr ""
+
+#: build/index.js:3860
+#: build/index.js:3459
+msgid "Stack on mobile"
+msgstr ""
+
+#: build/index.js:3887
+#: build/index.js:3482
+msgid "Vertical align"
+msgstr ""
+
+#: build/index.js:3906
+#: build/index.js:3496
+msgid "Image width (%)"
+msgstr ""
+
+#: build/index.js:3906
+#: build/index.js:3497
+msgid "Image / products ratio (%)"
+msgstr ""
+
+#: build/index.js:3924
+#: build/index.js:3520
+msgid "Reset layout"
+msgstr ""
+
+#: build/index.js:3931
+#: build/index.js:3532
+msgid "Product layout"
+msgstr ""
+
+#: build/index.js:3937
+#: build/index.js:3543
+msgid "Style properties like colors, spacing, and font sizes are available in the editor styles tab."
+msgstr ""
+
+#: build/index.js:3940
+#: build/index.js:3551
+msgid "Hotspots"
+msgstr ""
+
+#: build/index.js:3950
+#: build/index.js:4188
+#: build/index.js:3570
+#: build/index.js:3908
+msgid "Remove hotspot"
+msgstr ""
+
+#: build/index.js:3960
+#: build/index.js:4198
+#: build/index.js:3585
+#: build/index.js:3922
+msgid "Remove All Hotspots"
+msgstr ""
+
+#: build/index.js:3961
+#: build/index.js:3588
+msgid "Style properties of hotspots are available in the editor styles tab."
+msgstr ""
+
+#: build/index.js:3962
+#: build/index.js:4198
+#: build/index.js:3591
+#: build/index.js:3926
+msgid "Click on image to add hotspots"
+msgstr ""
+
+#: build/index.js:3966
+#: build/index.js:3605
+msgid "Product styles"
+msgstr ""
+
+#: build/index.js:3973
+#: build/index.js:3622
+msgid "Hotspots - general styles"
+msgstr ""
+
+#: build/index.js:3976
+#: build/index.js:4135
+#: build/index.js:3626
+#: build/index.js:3824
+msgid "Hotspot style"
+msgstr ""
+
+#: build/index.js:3988
+#: build/index.js:3640
+msgid "Hotspot outer size"
+msgstr ""
+
+#: build/index.js:4000
+#: build/index.js:3655
+msgid "Hotspot inner size"
+msgstr ""
+
+#: build/index.js:4025
+#: build/index.js:4160
+#: build/index.js:3685
+#: build/index.js:3861
+msgid "Primary Color"
+msgstr ""
+
+#: build/index.js:4036
+#: build/index.js:4171
+#: build/index.js:3697
+#: build/index.js:3877
+msgid "Secondary Color"
+msgstr ""
+
+#: build/index.js:4040
+#: build/index.js:3704
+msgid "Pulsate all hotspots"
+msgstr ""
+
+#: build/index.js:4049
+#: build/index.js:3716
+msgid "To pulsate individual hotspots, enable pulsation for each hotspot in \"Hotspot - individual styles\""
+msgstr ""
+
+#: build/index.js:4057
+#: build/index.js:3723
+msgid "Show product title"
+msgstr ""
+
+#: build/index.js:4079
+#: build/index.js:4634
+#: build/index.js:3753
+#: build/index.js:4417
+msgid "Title Color"
+msgstr ""
+
+#: build/index.js:4090
+#: build/index.js:3765
+msgid "Title Background Color"
+msgstr ""
+
+#: build/index.js:4093
+#: build/index.js:3771
+msgid "Title size"
+msgstr ""
+
+#: build/index.js:4106
+#: build/index.js:3788
+msgid "Reset hotspot general styles"
+msgstr ""
+
+#: build/index.js:4113
+#: build/index.js:3801
+msgid "Hotspot - individual styles"
+msgstr ""
+
+#: build/index.js:4174
+#: build/index.js:3884
+msgid "Pulsate this hotspot"
+msgstr ""
+
+#: build/index.js:4276
+#: build/index.js:3993
+msgid "Enable image height"
+msgstr ""
+
+#: build/index.js:4276
+#: build/index.js:3993
+msgid "Enable image width"
+msgstr ""
+
+#: build/index.js:4277
+#: build/index.js:3994
+msgid "Image height"
+msgstr ""
+
+#: build/index.js:4288
+#: build/index.js:4008
+msgid "Popover layout type"
+msgstr ""
+
+#: build/index.js:4289
+#: build/index.js:4009
+msgid "Pick a layout for popover with product"
+msgstr ""
+
+#: build/index.js:4348
+#: build/index.js:4069
+msgid "Align product elements in the popover"
+msgstr ""
+
+#: build/index.js:4374
+#: build/index.js:4089
+msgid "Popover width: minimum"
+msgstr ""
+
+#: build/index.js:4388
+#: build/index.js:4104
+msgid "Popover width: preferred"
+msgstr ""
+
+#: build/index.js:4402
+#: build/index.js:4119
+msgid "Popover width: maximum"
+msgstr ""
+
+#: build/index.js:4418
+#: build/index.js:4138
+msgid "Reset popover layout settings."
+msgstr ""
+
+#: build/index.js:4497
+#: build/index.js:4238
+msgid "Reset toggle"
+msgstr ""
+
+#: build/index.js:4511
+#: build/index.js:4259
+msgid "Popover padding"
+msgstr ""
+
+#: build/index.js:4643
+#: build/index.js:4428
+msgid "Price Color"
+msgstr ""
+
+#: build/index.js:4652
+#: build/index.js:4439
+msgid "Excerpt Color"
+msgstr ""
+
+#: build/index.js:4667
+#: build/index.js:4463
+msgid "Popover layout"
+msgstr ""
+
+#: build/index.js:4674
+#: build/index.js:4475
+msgid "Style properties like colors, spacing, and font sizes are available in the editor styles tab"
+msgstr ""
+
+#: build/index.js:4678
+#: build/index.js:4485
+msgid "Popover styles"
+msgstr ""
+
+#: build/index.js:4709
+#: build/index.js:4526
+msgid "Arrow color is set in \"Background Color\" (\"Colors\" tab)."
+msgstr ""
+
+#: build/index.js:4933
+#: build/index.js:4719
+msgid "Pick your products in the sidebar \"WooCommerce products\" section."
+msgstr ""
+
+#: build/index.js:4967
+#: build/index.js:4763
+msgid "Enter your description here"
+msgstr ""
+
+#: build/index.js:5008
+#: build/index.js:4811
+msgid "Add image"
+msgstr ""
+
+#: build/index.js:5009
+#: build/index.js:4812
+msgid "Drag & drop or select an image file"
+msgstr ""
+
+#: build/index.js:5016
+#: build/index.js:4822
+msgid "WCSpots image"
+msgstr ""
+
+#: build/index.js:5037
+#: build/index.js:4850
+msgid "Click on image to add hotspots."
+msgstr ""
+
+#: build/index.js:5040
+#: build/index.js:4863
+msgid "Assign a product to this hotspot"
+msgstr ""
+
+#: build/index.js:5046
+#: build/index.js:4873
+msgid "Products"
+msgstr ""
+
+#: build/index.js:5983
+#: build/index.js:5665
+msgid "Lookbook image"
+msgstr ""
+
+#: build/block.json
+msgctxt "block title"
+msgid "WCSpots"
+msgstr ""
+
+#: build/block.json
+msgctxt "block description"
+msgid "Create WooCommerce product showcases with image hotspots in the block editor."
+msgstr ""

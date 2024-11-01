@@ -1,0 +1,269 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 2,
+	"name": "micemade/wcspots",
+	"version": "0.1.0",
+	"title": "WCSpots",
+	"category": "widgets",
+	"icon": "store",
+	"description": "Create WooCommerce product showcases with image hotspots in the block editor.",
+	"supports": {
+		"html": false,
+		"color": {
+			"background": true,
+			"gradients": true
+		},
+		"align": [ "wide", "full"],
+		"spacing": {
+			"margin": true,
+			"padding": true
+		}
+	},
+	"attributes": {
+		"id":{
+			"type":"string",
+			"default": ""
+		},
+		"title":{
+			"type": "string",
+			"default": ""
+		},
+		"description":{
+			"type":"string",
+			"default": ""
+		},
+		"settingsTitleDesc":{
+			"type":"object",
+			"default": {
+				"activeTitle": true,
+				"tagName": "h2",
+				"align": "center",
+				"spacingTitle": "20px",
+				"activeDesc": true,
+				"spacingDesc": "10px"
+			}
+		},
+
+		"productsData": {
+			"type": "array",
+			"default": []
+		},
+		"media":{
+			"type": "object",
+			"default": {}
+		},
+		"srcSetAtt":{
+			"type":"string",
+			"default": ""
+		},
+		"sizesAtt":{
+			"type":"string",
+			"default": ""
+		},
+		"mediaID": {
+			"type": "number",
+			"default": null
+		},
+		"mediaURL": {
+			"type": "string",
+			"default": null
+		},
+		"backImage": {
+			"type": "string",
+			"default": "backimage-none"
+		},
+		"backimageOpacity": {
+			"type":"number",
+			"default": 0.3
+		},
+
+		"isStackedOnMobile":{
+			"type":"boolean",
+			"default": true
+		},
+		"flexLayout": {
+			"type": "string",
+			"default": "row"
+		},
+		"valign": {
+			"type": "string",
+			"default": "flex-start"
+		},
+		"flexItemsRatio": {
+			"type": "number",
+			"default": 50
+		},
+		"flexGap": {
+			"type": "string",
+			"default": "1vw"
+		},
+
+		"productsLayout": {
+			"type":"string",
+			"default": "layout1"
+		},
+		"productsAlign": {
+			"type":"string",
+			"default": "flex-start"
+		},
+		"columns": {
+			"type": "number",
+			"default": 3
+		},
+
+		"elementsToggle":{
+			"type": "object",
+			"default": {
+				"image": true,
+				"title": true,
+				"price": true,
+				"excerpt": true,
+				"addToCart": true
+			}
+		},
+
+		"productsGap": {
+			"type": "string",
+			"default": "1em"
+		},
+		"productSpacing":{
+			"type":"string",
+			"default": "0.7em"
+		},
+		"productPadding": {
+			"type": "string",
+			"default": "0.5em"
+		},
+
+		"imageSize":{
+			"type":"string",
+			"default": "50%"
+		},
+		"featuredImageSize": {
+			"type": "string",
+			"default": "automatic"
+		},
+		"titleSize":{
+			"type":"string",
+			"default": "1em"
+		},
+		"priceSize":{
+			"type":"string",
+			"default": "0.8em"
+		},
+		"excerptSize":{
+			"type":"string",
+			"default": "0.8em"
+		},
+		"addToCartSize":{
+			"type": "number",
+			"default": 1
+		},
+
+		"productBackColor": {
+			"type": "string",
+			"default": ""
+		},
+		"titleColor": {
+			"type": "string",
+			"default": ""
+		},
+		"priceColor": {
+			"type": "string",
+			"default": ""
+		},
+		"excerptColor": {
+			"type": "string",
+			"default": ""
+		},
+
+		"hotspots": {
+			"type": "array",
+			"default": []
+		},
+		"hotspotSettings":{
+			"type": "object",
+			"default": {
+				"showTitle": true,
+				"titleColor": "#333",
+				"titleBack": "#fff",
+				"titleSize": "14px",
+				"iconStyle": "iconstyle-1",
+				"primaryColor": "rgba(120, 120, 120, 0.7)",
+				"secondaryColor": "#fff",
+				"size": 2,
+				"innerSize": 1,
+				"pulsateEff": true
+			}
+		},
+		"selectedHotspot": {
+			"type": "number",
+			"default": null
+		},
+		"selectedProduct": {
+			"type": "string",
+			"default": ""
+		},
+		"editModal": {
+			"type": "boolean",
+			"default": false
+		},
+		"popoverAtts":{
+			"type":"object",
+			"default": {
+				"popoverWidth": {
+					"min": "340px",
+					"val": "80%",
+					"max": "600px"
+				},
+				"popoverPadding": "0.5em",
+				"productsLayout": "layout1",
+				"productsAlign": "flex-start",
+				"elementsToggle": {
+					"image": true,
+					"title": true,
+					"price": true,
+					"excerpt": true,
+					"addToCart": true
+				},
+				"productSpacing": "0.6em",
+				"productPadding": "0.8em",
+				"imageSizeOn": false,
+				"imageSize": "30vh",
+				"titleSize": "1em",
+				"priceSize": "1em",
+				"excerptSize": "0.8em",
+				"addToCartSize": 1,
+				"productBackColor": "",
+				"titleColor": "",
+				"priceColor": "",
+				"excerptColor": "",
+				"roundCorners": "8px",
+				"arrowSize": "10px"
+			}
+		},
+
+		"style": {
+			"type": "object",
+			"default": {
+				"color": {
+					"text": "#3a3a3a",
+					"background": "#fbf9f4"
+				},
+				"spacing": {
+					"padding": {
+						"top": "2vw",
+						"right": "2vw",
+						"bottom": "2vw",
+						"left": "2vw"
+					}
+				}
+			}
+		}
+	},
+	"textdomain": "wcspots",
+	"editorScript": "file:./index.js",
+	"editorStyle": "file:./index.css",
+	"viewScript":"file:./frontend/index.js",
+	"style": "file:./style-index.css"
+}

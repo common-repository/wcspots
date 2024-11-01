@@ -1,0 +1,192 @@
+/**
+ * The following styles get applied inside the editor only.
+ */
+
+.wp-block-micemade-wcspots:hover {
+	outline: 1px dotted #f00;
+}
+
+
+/*
+ * Custom component 'UnitRangeControl'.
+ */
+.editor-range-unit-combo {
+	
+	align-items: flex-start;
+	
+	.components-range-control {
+		flex-basis: 75%;
+		margin-block-end: 10px;
+	}
+}
+
+/*
+ * Custom component 'ImageRadioSelectControl'
+ */
+.components-base-control.image-radio-select-control-label {
+	margin-bottom: 5px;
+	margin-top: 10px;
+}
+// Buttons with images in 'ImageRadioSelectControl'
+.wcspots-image-button {
+	height: auto;
+	border-radius: 5px !important;
+	margin: 0 2px;
+
+	&:first-child {
+		margin-left: 0;
+	}
+}
+
+
+.block-editor-block-inspector .wcspots-label {
+	margin-bottom: 12px;
+}
+
+/*
+ * Hotspot edit buttons.
+ */
+.hotspot-product-title {
+	.unassign { visibility: hidden; opacity: 0; }
+	&:hover {
+		.unassign { visibility: visible; opacity: 1;}
+	}
+}
+.product-hotspot {
+	.remove-hotspot { visibility: hidden; opacity: 0;}
+	&:hover {
+		.remove-hotspot { visibility: visible; opacity: 1;}
+	}
+}
+
+/*
+ * Various custom styles for component buttons.
+ */
+
+.unassign, .remove-hotspot {
+	position: absolute;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	top: 50%;
+	left: 50%;
+	padding: 5px !important;
+	width: -moz-max-content; 
+	width: max-content;
+	min-width: auto !important;
+	height: 24px;
+	width: 24px;
+	border-radius: 50%;
+	z-index: 10;
+	transition: all .3s linear;
+	&:hover {
+		cursor: pointer;
+	}
+}
+
+.unassign {
+	top: -12px;
+	left: calc(100% - 12px);
+	background: #246fb1;
+	color: #fff;
+	transform: scale(0.7);
+}
+
+.remove-hotspot {
+	background: #ed006b;
+	color: #fff;
+	transform: translateX(0%) translateY(-90%) scale(0.5);
+}
+
+.wcspots-reset-attributes {
+	padding: 0;
+	display: flex;
+	width: 100%;
+	justify-content: right;
+}
+
+.hotspots-list {
+	li.hotspot-list-item {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+		align-items:center;
+		background: #f5f5f5;
+		border: 1px solid #e5e5e5;
+		border-bottom: none;
+		margin-bottom: 0;
+		p {
+			margin: 0;
+			padding: 6px;
+			font-size: 12px;
+			line-height: 1.4;
+		}
+
+		&:first-child {
+			border-top-left-radius: 4px;
+			border-top-right-radius: 4px;
+		}
+		&:last-child {
+			border-bottom: 1px solid #e5e5e5;
+			border-bottom-left-radius: 4px;
+			border-bottom-right-radius: 4px;
+		}
+
+	}
+}
+
+
+.hotspots-editor-bottomtip {
+	position: absolute;
+	bottom: 14px;
+	left: 50%;
+	transform: translateX(-50%);
+	padding: 2px 8px;
+	z-index: 10;
+	font-size: 14px;
+	line-height: 1.4;
+	color: #333;
+	background: rgba(255,255,255,0.7);
+	border-radius: 4px;
+	visibility: hidden;
+	&.visible {
+		visibility: visible;
+	}
+}
+
+.components-panel__body.hotspot-settings { 
+	
+	border-radius: 4px;
+	background: #f5f5f5;
+	flex: 1;
+
+	> .components-panel__body-title button {
+		border-radius: 4px;
+		font-weight: normal;
+		font-size: 12px;
+		padding: 10px 42px 10px 10px;
+
+		> span svg {
+			height: 18px;
+		}
+	}
+	> div {
+		padding: 0px;
+	}
+}
+
+.hotspot-tools-panel {
+	&.components-tools-panel {
+		padding: 5px;
+		padding-bottom: 15px;
+	}
+
+	&.hotspot-colors {
+		margin-bottom: 15px;
+	}
+
+	.first {
+		margin-top: 10px;
+	}
+
+}
